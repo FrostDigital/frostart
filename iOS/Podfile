@@ -1,0 +1,311 @@
+### Useful cocoapods to be included into different projects
+### NOTE: Always specify version for each of plugins, otherwise they can be updated silently and break the code
+### More about cocoapods: http://cocoapods.org
+### Most pods do have docs: http://cocoadocs.org
+### Most used pods: http://www.reigndesign.com/cocoapodsleaderboard/
+
+
+
+###========================================
+###              UTILITIES
+###========================================
+
+
+pod 'Colorkit'
+# Init colors with Hex, RGB, HSB etc. Get values back from them.
+# http://cocoadocs.org/docsets/Colorkit
+
+
+pod 'HexColors'
+# HexColors is drop in category for HexColor Support for NSColor and UIColor. 
+# Support for HexColors with prefixed # and without.
+# http://cocoadocs.org/docsets/HexColors
+
+
+pod 'ColorArt'
+# iTunes 11 Style Color Art Detection for iOS.
+# http://cocoadocs.org/docsets/ColorArt
+
+
+pod 'BlocksKit'
+# Set of different blocks-based categories. 
+# http://cocoadocs.org/docsets/BlocksKit/
+
+
+pod 'UIAlertView-Blocks'
+# Block implementation callbacks instead of delegate for UIActionSheet and UIAlertView
+# http://cocoadocs.org/docsets/UIAlertView-Blocks
+
+
+pod 'UIActionSheet-Blocks'
+# http://cocoadocs.org/docsets/UIActionSheet-Blocks
+
+
+pod 'iRate'
+# Useful pod to ask user for app review
+# http://cocoadocs.org/docsets/iRate
+
+
+pod 'iVersion'
+# Useful pod to check for new versions in AppStore
+# http://cocoadocs.org/docsets/iVersion
+
+
+pod 'SDWebImage'
+# This library provides a category for UIImageView with support for remote images coming from the web.
+# http://cocoadocs.org/docsets/SDWebImage
+
+
+pod 'SDWebImage-ProgressView'
+# Add-on to SDWebImage to show progress view while loading image
+# http://cocoadocs.org/docsets/SDWebImage-ProgressView
+
+
+pod 'EGOCache'
+# EGOCache is a simple, thread-safe key value cache store. 
+# It has native support for NSString, UI/NSImage, and NSData, 
+# but can store anything that implements <NSCoding>. 
+# All cached items expire after the timeout, which by default, is one day.
+# http://cocoadocs.org/docsets/EGOCache
+
+
+pod 'GBDeviceInfo'
+# Detects the hardware, software and display of the current iOS or Mac OS X device at runtime.
+# http://cocoadocs.org/docsets/GBDeviceInfo
+
+
+pod 'DDURLParser'
+# Parses Parameters in URLs.
+# http://cocoadocs.org/docsets/DDURLParser
+
+
+pod 'FXKeychain'
+# FXKeychain is a lightweight wrapper around the Apple keychain APIs 
+# that exposes the commonly used functionality whilst hiding 
+# the horrific complexity and ugly interface of the underlying APIs.
+# http://cocoadocs.org/docsets/FXKeychain
+
+
+pod 'Lockbox'
+# Lockbox is an Objective-C utility class for storing data securely in the keychain. 
+# http://cocoadocs.org/docsets/Lockbox
+
+
+
+###========================================
+###               NETWORK
+###========================================
+
+
+
+pod 'AFNetworking'
+# AFNetworking is a delightful networking library for iOS and Mac OS X.
+# http://cocoadocs.org/docsets/AFNetworking
+
+
+pod 'AFNetworking+AutoRetry'
+# Auto Retries for AFNetworking requests
+# http://cocoadocs.org/docsets/AFNetworking+AutoRetry
+
+
+pod 'Reachability'
+# Based on both blocks and notifications.
+# http://cocoadocs.org/docsets/Reachability
+
+
+pod 'KSReachability' 
+# A better reachability for a modern age. 
+# Reachability to the network in general, to a host, or to an IPV4 or IPV6 address.
+# Notifications/callbacks via NSNotification, blocks, and KVO.
+# Fetching status values doesn't block.
+# Callbacks and KVO always occur on the main thread, so it's UI-safe.
+# http://cocoadocs.org/docsets/KSReachability/
+
+
+
+###========================================
+###             UI CONTROLS
+###========================================
+
+
+
+pod 'NBUKit'
+# Demo: https://app.io/4kq2Fz
+# Refresh controll
+# Block based UIAlertView and UIActionSheet
+# BAdges on controls
+# A lot of useful Additions to basic iOS classes + UIKit extensions
+# http://cocoadocs.org/docsets/NBUKit
+
+
+pod 'TSMessages'
+# This library provides an easy to use class to show little notification views on the top of the screen. 
+# There are 4 different types already set up: Success, Error, Warning, Message.
+# Allows to customize position, UI and behavior.
+# http://cocoadocs.org/docsets/TSMessages
+
+
+pod 'AHAlertView'
+# Block-based button events - no more messy delegate code
+# UIAppearance conformance to allow easy skinning of all elements
+# Dramatic presentation and dismissal animations (tumble, fade, zoom, etc.)
+# http://cocoadocs.org/docsets/AHAlertView
+
+
+pod 'SVWebViewController'
+# Simple inline browser for your iOS 7 app.
+# iPhone and iPad distinct UIs
+# Full landscape orientation support
+# Back, forward, stop/refresh and share buttons
+# Open in Safari and Chrome UIActivities
+# Navbar title set to the currently visible web page
+# Talks with setNetworkActivityIndicatorVisible
+# http://cocoadocs.org/docsets/SVWebViewController
+
+
+pod 'SVProgressHUD'
+# Is a clean and easy-to-use HUD meant to display the progress of an ongoing task.
+# http://cocoadocs.org/docsets/SVProgressHUD
+
+
+pod 'JASidePanels'
+# Is a UIViewController container designed for presenting a center panel 
+# with revealable side panels - one to the left and one to the right.
+# http://cocoadocs.org/docsets/JASidePanels 
+
+
+pod 'RAPageViewController'
+# Infinite scrolling and visual change reconciliation construct for paged content.
+# http://cocoadocs.org/docsets/RAPageViewController
+
+
+pod 'HMSegmentedControl'
+# A drop-in replacement for UISegmentedControl mimicking the style of the segmented control 
+# used in Google Currents and various other Google products.
+# http://cocoadocs.org/docsets/HMSegmentedControl 
+
+
+pod 'NBUImagePicker'
+# Modular and fully customizable UIImagePickerController replacement 
+# with Simulator-compatible AVFondation camera, 
+# AssetsLibrary and custom directory assets' browser, and image cropping, filters and gallery.
+# http://cocoadocs.org/docsets/NBUImagePicker
+
+
+
+###========================================
+###  LOGGING / DEBUG
+###========================================
+
+
+
+pod 'CocoaLumberjack'
+# Is a fast & simple, yet powerful & flexible logging framework for Mac and iOS.
+# http://cocoadocs.org/docsets/CocoaLumberjack
+
+
+pod 'CrashlyticsLumberjack'
+# Is a bridge between Crashlytics logging and CocoaLumberjack.
+# http://cocoadocs.org/docsets/CrashlyticsLumberjack
+
+
+pod 'LumberjackConsole'
+# On-device CocoaLumberjack console with support for search, adjust levels, copying and more.
+# http://cocoadocs.org/docsets/LumberjackConsole
+
+
+pod 'NBULog'
+# Log framework based on CocoaLumberjack. Adds dynamic log levels, modules' support and eases usage.
+# http://cocoadocs.org/docsets/NBULog
+
+
+pod 'PonyDebugger'
+# Is a remote debugging toolset. 
+# It is a client library and gateway server combination 
+# that uses Chrome Developer Tools on your browser to debug 
+# your application's network traffic and managed object contexts.
+# http://cocoadocs.org/docsets/PonyDebugger
+
+
+
+###========================================
+###                SDKs
+###========================================
+
+
+
+pod 'TestFlightSDK'
+pod 'Facebook-iOS-SDK'
+pod 'GoogleAnalytics-iOS-SDK'
+pod 'FlurrySDK'
+pod 'HockeySDK'
+pod 'Lookback'
+
+
+
+###========================================
+###               TESTS
+###========================================
+
+
+
+pod 'Specta'
+# A light-weight TDD / BDD framework for Objective-C & Cocoa.
+# http://cocoadocs.org/docsets/Specta
+
+
+pod 'Expecta'
+# The main advantage of using Expecta over other matcher frameworks is 
+# that you do not have to specify the data types. 
+# Also, the syntax of Expecta matchers is much more readable and does not suffer from parenthesitis.
+# http://cocoadocs.org/docsets/Expecta
+
+
+pod 'OCMock'
+# is an Objective-C implementation of mock objects.
+# http://cocoadocs.org/docsets/OCMock
+
+pod 'OCMockito'
+# is an iOS and Mac OS X implementation of Mockito, supporting creation, 
+# verification and stubbing of mock objects.
+# http://cocoadocs.org/docsets/OCMockito
+
+
+pod 'OHHTTPStubs'
+# is a library designed to stub your network requests very easily. It can help you:
+# test your apps with fake network data (stubbed from file) and simulate slow networks, 
+# to check your application behavior in bad network conditions
+# write Unit Tests that use fake network data from your fixtures.
+# It works with NSURLConnection, new iOS7/OSX.9's NSURLSession, AFNetworking (both 1.x and 2.x), 
+# or any networking framework that use Cocoa's URL Loading System.
+# http://cocoadocs.org/docsets/OHHTTPStubs
+
+
+
+###========================================
+###                OTHER
+###========================================
+
+
+
+pod 'ObjectiveSugar'
+# Ruby-like wokring with arrays, dictionaries and other collections to filter, map, reduce etc
+# http://cocoadocs.org/docsets/ObjectiveSugar
+
+
+pod 'ReactiveCocoa'
+# ReactiveCocoa (RAC) is an Objective-C framework inspired by Functional Reactive Programming. 
+# It provides APIs for composing and transforming streams of values.
+# http://cocoadocs.org/docsets/ReactiveCocoa
+
+
+pod 'AFNetworking-ReactiveCocoa'
+# AFNetworking-ReactiveCocoa makes AFNetworking reactive.
+# http://cocoadocs.org/docsets/AFNetworking-ReactiveCocoa
+
+
+pod 'CorePlot'
+# Library to draw different types of plots on iOS platform
+# http://cocoadocs.org/docsets/CorePlot
+
+
